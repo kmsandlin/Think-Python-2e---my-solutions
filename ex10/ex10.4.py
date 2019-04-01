@@ -12,7 +12,7 @@ last elements, and returns None. For example:
 """
 
 def chop(li):
-    del li[1]
+    del li[0]
     del li[-1]
 
 
